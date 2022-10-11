@@ -7,7 +7,7 @@ using namespace std;
 // complete two functions
 double nthpowerp(int n)
 {
-        int value;
+        int value = 1;
         for (int i = 0; i < n; i++)
                 value *= 2;
         return value;
@@ -15,7 +15,8 @@ double nthpowerp(int n)
 }
 double nthpowern(int n)
 {
-        int value; 
+        float value = 1; 
+        n *= (-1); 
         float negexp;
         for (int i = 0; i < n; i++)
         {
