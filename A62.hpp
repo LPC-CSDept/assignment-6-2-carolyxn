@@ -10,7 +10,7 @@ double nthpowerp(int n)
         int value;
         for (int i = 0; i < n; i++)
                 value *= 2;
-
+        return value;
         // return n_th power number
 }
 double nthpowern(int n)
@@ -22,6 +22,7 @@ double nthpowern(int n)
                 value *= 2;
                 negexp = 1/ value;
         }
+        return negexp;
         // return n_th power number
 }
 void printout(double result)
